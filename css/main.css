@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 8px rgb(57, 71, 72);
+}
+
+.board {
+    background-color: darkgray;
+}
+
+.board td {
+    width: 27px;
+    height: 27px;
+    transition: 0.15s;
+}
+
+.board :hover {
+    cursor: pointer;
+}
+
+.cell {
+    opacity: 0;
+}
+
+.mine {
+    background-color: red;
+    opacity: 0;
+}
+
+.lives {
+    margin: 10px 250px;
+
+}
+
+.levels button {
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+    outline: none;
+    padding: 10px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.timer {
+    margin: auto;
+    text-shadow: 4px 4px 5px rgb(57, 71, 72);
+}
+
+.smiley button {
+    margin: auto;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bulbs button {
+    margin: auto;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+h6 {
+    margin: 5px
+}

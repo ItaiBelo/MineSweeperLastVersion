@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body background="desert.jpg">
+    <div></div>
+    <h1 style="color:black">Mine Sweeper</h1>
+    <div class="timer">⏰ <span class="min">00</span>:<span class="sec">00</span></div>
+    <div class="lives">
+
+    </div>
+    <div class="smiley">
+        <button style="display: none; " onclick="onRestart()"></button>
+        <!-- <button onclick="onInitGame()">restart ?</button> -->
+    </div>
+    <div class="levels">
+        <button onclick="onChooseLevel(this)">Easy</button>
+        <button onclick="onChooseLevel(this)">Medium</button>
+        <button onclick="onChooseLevel(this)">Hard</button>
+    </div>
+    <br>
+    <table style="margin: auto;" border="3" cellpadding="10">
+        <tbody class="board">
+
+        </tbody>
+    </table>
+
+    <h4>Made by : Itai Belotserkovski </h4>
+
+    <script src="js/utils.js"></script>
+    <script src="js/mines.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
